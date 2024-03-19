@@ -29,7 +29,9 @@ https://docs.sui.io/guides/developer/getting-started/sui-environment（sui的官
 
 
 move的编译插件，用于检查move语法有没有错误，且高亮move语法，建议安装
+
 二、开始构建我们的dapp应用
+
 安装Sui dApp Kit
 在创建好我们的项目文件夹之后，要想使用sui的dapp构建功能，我们需要在项目文件夹中安装Sui dApp Kit，在cmd或者vscode的终端中使用命令进行安装（选一个安装，取决于你电脑用的是什么）
 npm i --save @mysten/dapp-kit @mysten/sui.js @tanstack/react-query
@@ -72,6 +74,7 @@ App：总输出函数，我们要把写的逻辑和前端页面放到这里来�
 测试币的申领在注册完discord后可以在sui的discord的testnet-faucet频道中通过!faucet <地址>的指令格式申领
 
 三、智能合约的编写
+
 介绍完上面的页面，我们就可以正式开始建设我们的项目了。在开始建设前端市场之前，我们需要编写一个用于和链上交互的智能合约。以便nft属性的设置和市场逻辑的实现。
 关于move编程会遇到的一些问题，大家可以直接去看我的github
 （https://github.com/Juedsd/Sui_move_1/blob/main/journal.md）
@@ -379,6 +382,7 @@ module booknft::book_nft {
 }
 
 四、前端用户界面搭建——铸造NFT界面
+
 在完成了合约的编写后，我们就可以开始我们的用户端搭建，并调用编写的合约了。
 那么到我们之前创建的dapp项目这里来。我们可以在package.json文件中找到一个调试按钮，点击这里来运行我们的项目，在vscod启动后运行过一次，下面就可以通过终端执行同样的运行代码来启动项目了（我也不知道为什么，但是确实直接运行指令就不行）
 
@@ -395,6 +399,7 @@ module booknft::book_nft {
 至此，mint界面就已经编写完成，铸造完成后，你可以在自己的钱包中看到NFT
 
 五、前端用户界面搭建——MyAssert上架界面
+
 铸造完NFT，下一步就是上架我们刚刚创造的NFT，但在此之前，我们要先创建一个该NFT的市场，创建市场的操作直接在区块链浏览器上调用create函数就可，coin类型可以写sui（0x2::sui::SUI）。随后我们就可以尝试向该市场上架我们创建的NFT了。
 
 首先，我们创建一个名为Myassert.tsx的文件来编写我们的个人资产界面。与先前的mint不同，这次我们先创建一个初始化函数，再由初始化函数获取到数据后传递给含有html标签的市场函数。
@@ -420,6 +425,7 @@ module booknft::book_nft {
 
 
 六、前端用户界面搭建——市场界面
+
 接下来就是最为关键的市场交易部分了，这一部分比较复杂，我们采取的是多级函数传递的方式来构建完整的市场。
 首先，同我们的Myassert一样，我们先编写一个初始化函数。用来得到我们创建的市场对象的动态对象池。（与在钱包不同，我们的NFT在市场中是以动态对象存放在市场对象的动态池里面的）
 
