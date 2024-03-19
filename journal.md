@@ -20,6 +20,7 @@ Introduction | React Bootstrap (react-bootstrap.github.io)
 （react bootstrap）
 
 一、环境设置与软件安装
+
 本项目基于react框架和move编程语言，使用的工具为vscode
 move语言的本地安装官方社区已经有很多更好的教程，在此就附上链接了
 《SUI MOVE中文系列课程》SUI官方认证 Move智能合约语言入门指南_哔哩哔哩_bilibili（B站中文教程）
