@@ -1,0 +1,187 @@
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.image-container {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title-t {
+    margin-top: -10px;
+}
+
+.button-buy {
+    width: 60px;
+    margin-right: 5px;
+}
+
+.button-delist {
+    width: 90px;
+    margin-right: 20px;
+}
+
+.button-lease {
+    width: 80px;
+}
+
+.nftcard {
+    width: calc(20% - 20px);
+    margin: 10px;
+}
+
+.page-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.head-ms-container {
+    width: 73.5%;
+}
+
+.head-ms-image {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+}
+
+.nav {
+    width: 1455px;
+    margin-top: -10px;
+}
+
+.nav-wallet {
+    margin-top: -12px;
+}
+
+.datablock {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.datablock-one {
+    margin-right: 5%;
+}
+
+.img-h-text {
+    display: inline-block;
+    vertical-align: middle;
+    width: 500px;
+    padding-left: 20px;
+}
+
+.nftname {
+    margin-right: 10px;
+}
+
+.transfer-box {
+    margin-left: 12%;
+    width: 35%;
+    height: 350px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.tr-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+}
+
+.tr-button {
+    margin-top: 5%;
+    margin-left: 36%;
+}
+
+.tr-head {
+    flex-basis: 100%;
+    flex-grow: 0;
+    margin-top: 5%;
+    margin-left: 39%;
+    width: 200px;
+    height: 10%;
+}
+
+.tr-head-name {
+    font-size: 34px;
+}
+
+.tr-head-des {
+    margin-top: 15px;
+    float: right;
+    margin-right: 350px;
+}
+
+#mk-nav {
+    position: relative;
+    border: none;
+    border-radius: 10em;
+    display: flex;
+    list-style: none;
+    background: #f5f5f5;
+    box-shadow: 10px 20px 20px #00000033;
+    padding: 10px;
+    height: 60px;
+}
+
+#mk-nav li a {
+    position: relative;
+    padding: 10px 40px;
+    font: 500 14px '优设标题黑';
+    border: none;
+    outline: none;
+    color: rgb(70, 100, 180);
+    display: inline-block;
+    text-decoration: none;
+    z-index: 3;
+}
+
+.slide1,
+.slide2 {
+    position: absolute;
+    display: inline-block;
+    border-radius: 10em;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1.05);
+    height: 40px;
+}
+
+.slide1 {
+    background-color: rgb(170, 190, 255);
+    z-index: 2;
+}
+
+.slide2 {
+    opacity: 0;
+    background-color: rgba(170, 190, 255, .5);
+    z-index: 1;
+    box-shadow: 0 0 20px #ffffffaa inset;
+}
+
+.squeeze {
+    transform: scale(0.9);
+}
+
+.x-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-button {
+    margin-top: 12px;
+    width: 29%;
+}
