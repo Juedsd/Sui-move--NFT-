@@ -7,5 +7,6 @@ Sui账户地址：0x195ee543ec9742181f458903261d21e1ae53de1d8cda0dcd00e2bc89cc42
 
 ## 学习日志
 学习日志：https://github.com/Juedsd/Sui-move--NFT-Market/blob/main/journal.md
+（journal.md目前可能有点乱，建议直接看doc文件）
 
 ## 学习成果
