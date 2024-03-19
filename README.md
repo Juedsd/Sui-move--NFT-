@@ -10,4 +10,4 @@ Sui账户地址：0x195ee543ec9742181f458903261d21e1ae53de1d8cda0dcd00e2bc89cc42
 （journal.md目前可能有点乱，建议直接看doc文件）
 
 ## 学习成果
-![Uploading image.png…]()
+![image](https://github.com/Juedsd/Sui-move--NFT-Market/assets/118274140/64b88bae-c638-4f2b-8882-e54f8418c6c8)
